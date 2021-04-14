@@ -1,0 +1,32 @@
+﻿<Window x:Class="Upsocity6WpfNetcore.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Upsocity6WpfNetcore"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="User" HorizontalAlignment="Left" Margin="35,38,0,0" VerticalAlignment="Top" Height="27" Width="44"/>
+        <Label Content="Pass" HorizontalAlignment="Left" Margin="35,77,0,0" VerticalAlignment="Top" Height="27" Width="44"/>
+
+        <Grid>
+            <Label Content="User" HorizontalAlignment="Left" Margin="35,38,0,0" VerticalAlignment="Top" Height="27" Width="44"/>
+            <Label Content="Pass" HorizontalAlignment="Left" Margin="35,77,0,0" VerticalAlignment="Top" Height="27" Width="44"/>
+            <Label Content="Số lần lỗi" HorizontalAlignment="Left" Margin="326,42,0,0" VerticalAlignment="Top" Height="27" Width="84"/>
+            <TextBox x:Name="soLanLoi" HorizontalAlignment="Left" Margin="449,47,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <Label Content="số ảnh up 1 lần" HorizontalAlignment="Left" Margin="326,77,0,0" VerticalAlignment="Top" Height="27" Width="123" RenderTransformOrigin="0.493,-0.018"/>
+            <TextBox x:Name="soAnhUpMotLan" HorizontalAlignment="Left" Margin="449,82,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <Label Content="Số ảnh up" HorizontalAlignment="Left" Margin="35,116,0,0" VerticalAlignment="Top" Height="27" Width="74"/>
+            <TextBox x:Name="soAnhUp" HorizontalAlignment="Left" Margin="146,121,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" />
+            <TextBox x:Name="userName" HorizontalAlignment="Left" Margin="146,43,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" />
+            <TextBox x:Name="passWord" HorizontalAlignment="Left" Margin="146,82,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" />
+            <Button Content="Start" HorizontalAlignment="Left" Margin="146,181,0,0" VerticalAlignment="Top" Height="32" Width="120" Click="Button_Click"/>
+            <Button Content="Open Profile" HorizontalAlignment="Left" Margin="290,181,0,0" VerticalAlignment="Top" Height="32" Width="120"/>
+            <Button Content="Close" HorizontalAlignment="Left" Margin="449,181,0,0" VerticalAlignment="Top" Height="32" Width="120"/>
+            <TextBox x:Name="trangThai" HorizontalAlignment="Left" Margin="57,271,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="641" Height="37"/>
+
+        </Grid>
+
+    </Grid>
+</Window>

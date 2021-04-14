@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Upsocity6WpfNetcore", "Upsocity6WpfNetcore.csproj", "{781A803D-EB71-46E4-A359-44595F83AC42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{781A803D-EB71-46E4-A359-44595F83AC42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{781A803D-EB71-46E4-A359-44595F83AC42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{781A803D-EB71-46E4-A359-44595F83AC42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{781A803D-EB71-46E4-A359-44595F83AC42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6EBA4B5B-7CA4-49E6-9421-9E65EEE9A3B7}
+	EndGlobalSection
+EndGlobal
